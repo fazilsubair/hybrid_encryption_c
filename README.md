@@ -13,7 +13,8 @@ This project is based on dual encryption for an image
 gcc aes.c -o aes_enc -lcrypto
 
 ./aes_enc <imagename>
-ps: use png 
+
+ ps: use png 
  
 gcc aes_dec.c -o aes_dec -lcrypto
  
